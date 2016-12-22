@@ -1,0 +1,17 @@
+group 'com.github.takuyaa'
+version '0.0.1'
+
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+mainClassName = 'com.github.takuyaa.sa4j.CLI'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
